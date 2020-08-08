@@ -1,10 +1,14 @@
 
-    * body {
+    * {
         box-sizing: border-box;
+    }
+
+    body {
         font-family: 'Oswald', sans-serif;
         background-color: white;
         min-width: 320px;
         max-width: 767px;
+        margin: auto;
     }
     
     .wrapper {

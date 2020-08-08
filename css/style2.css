@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+
 
     * {
         box-sizing: border-box;
@@ -8,8 +8,11 @@
     }
     
     .wrapper {
+        margin: auto;
         margin-top: 0;
         padding-top: 0;
+        min-width: 768px;
+        max-width: 1023px;
     }
     /* ------ Navigation ------ */
     .unordered-list li {
@@ -35,6 +38,10 @@
     
     .name {
         margin-top: 0;
+    }
+
+    .about {
+        width: 100%;
     }
     .about img {
         width: 40%;
@@ -155,5 +162,5 @@
         clear: both;
         background-color: #fafafa;
     }
-}
+
 
