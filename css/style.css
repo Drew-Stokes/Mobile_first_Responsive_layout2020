@@ -184,14 +184,6 @@
 
         }
         
-        .container #desktop,
-        .container #desktop2
-         {
-            display: inline-flex;
-            flex-direction: column;
-            width: 50%;
-
-        }
 
 
         body {
@@ -263,9 +255,26 @@
         }
         
         /* ------ Container Styles ------ */
+
+
         .container {
             width: 100%;
+            display: flex;
+            flex-direction: column;
         }
+
+        #desktop,
+        #desktop2 {
+            display: flex;
+            flex-direction: column;
+            flex: 1 50%;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            flex: 1;
+        }
+
         
         .container-heading {
             text-align: center;
@@ -440,12 +449,15 @@
 
         }
         
+        #desktop .col {
+            flex: 1;
+        }
         
         #desktop .col,
         #desktop2 .col {
             justify-content: center;
             align-self: center;
-            
+            flex: 1;
         }
        
         .photo {
