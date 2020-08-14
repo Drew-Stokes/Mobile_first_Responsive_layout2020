@@ -165,7 +165,8 @@
         float: left;
     }
 
-    .footer-list {
+    .footer-list,
+    .footer-list li {
         visibility: hidden;
         height: 0px;
     }
@@ -464,6 +465,9 @@
             margin-bottom: 0;
         }
         
-        
+        .main-footer {
+            display: flex;
+        }
+
     }
 
