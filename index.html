@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile-first Responsive Layout</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/style2.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,9 +12,9 @@
         <header class="banner clearfix">
             <h1 class="name">Andrew Stokes</h1>
             <ul class="unordered-list">
-                <li><a>Home</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="about clearfix">
                 <img src="img/responsive-layout-profile.png">
@@ -25,9 +24,9 @@
             </div>
         </header>
         <h3 class="container-heading"> portfolio</h3>
-        <div class="container">
+        <div class="container" id="portfolio">
             
-            <div>
+            <div id="desktop" class="clearfix">
                     <div class="marketing">
                         <img src="img/portfolio-1.png" alt="marketing">
                         <h3> Marketing Page</h3>
@@ -53,7 +52,7 @@
                     </div>
             
             </div>
-            <div>
+            <div id="desktop2" class="clearfix">
                     <div class="Map">
                         <img src="img/portfolio-4.png" alt="Map">
                         <h3>Map of favorites Spots</h3>
@@ -80,7 +79,7 @@
                 
             </div>
             
-            <div class="main-footer clearfix">
+            <div class="main-footer clearfix" id="contact">
                 <h3> contact</h3>
                 <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
                 <p><span>Phone</span><strong>+1 (111) 555-1234</strong></p>
@@ -90,9 +89,9 @@
                     <p class="f-student clearfix">Andrew Stokes</p>
                     <p  class="top">Back to top</p>
                     <ul class="footer-list">
-                        <li><a>Home</a></li>
+                        <li><a id="#home">Home</a></li>
                         <li><a>Portfolio</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
         </div>
