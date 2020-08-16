@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="banner clearfix">
-            <h1 class="name">Andrew Stokes</h1>
+        <header class="banner clearfix" id="footer-home">
+            <h1 class="name" id="top">Andrew Stokes</h1>
             <ul class="unordered-list">
-                <li><a href="home">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,7 +27,7 @@
         <div class="container" id="portfolio">
             
             <div id="desktop" class="clearfix">
-                    <div class="marketing">
+                    <div class="marketing" id="footer-portfolio">
                         <img src="img/portfolio-1.png" alt="marketing">
                         <h3> Marketing Page</h3>
                         <p>
@@ -80,18 +80,18 @@
             </div>
             
             <div class="main-footer clearfix" id="contact">
-                <h3> contact</h3>
+                <h3 id="#footer-contact"> contact</h3>
                 <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
                 <p><span>Phone</span><strong>+1 (111) 555-1234</strong></p>
                 <p><span>Email </span><strong>email@yoursite.com</strong></p>
                 <hr>
                 <div class="footer-name clearfix">
                     <p class="f-student clearfix">Andrew Stokes</p>
-                    <p  class="top">Back to top</p>
+                    <a href="#top"><p  class="top">Back to top</p></a>
                     <ul class="footer-list">
-                        <li><a id="#home">Home</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a href="contact">Contact</a></li>
+                        <li><a href="#footer-home">Home</a></li>
+                        <li><a href="#footer-portfolio">Portfolio</a></li>
+                        <li><a href="#footer-contact">Contact</a></li>
                     </ul>
                 </div>
         </div>
